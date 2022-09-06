@@ -18,6 +18,7 @@ import {
 import logoImg from "../images/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useLocation } from "@reach/router";
+import { Global } from "@emotion/react";
 
 const MainLayout = ({ children }: { children: JSX.Element }) => {
   const location = useLocation();

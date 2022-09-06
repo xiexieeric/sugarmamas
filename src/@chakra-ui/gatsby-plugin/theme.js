@@ -6,6 +6,13 @@ const theme = {
   fonts: {
     logo: "Pacifico",
   },
+  styles: {
+    global: () => ({
+      body: {
+        bg: "#1f2c5a",
+      },
+    }),
+  },
 };
 
 export default extendTheme(theme);
