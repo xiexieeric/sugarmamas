@@ -23,29 +23,26 @@ const IndexPage = () => {
         flexDir="column"
         alignItems={"center"}
         color="#1f2c5a"
-        fontFamily={"logo"}
         flexGrow="1"
       >
-        <Image width="200px" src={logoImg}></Image>
-        <Text fontSize={"100px"}>Sugar Mama's</Text>
-        <Box>
-          <Box backgroundColor={"#88aaa8"} height="4px"></Box>
-          <Text fontSize={"36px"}>Since 1993</Text>
-          <Box backgroundColor={"#88aaa8"} height="4px"></Box>
-        </Box>
-
-        <Box
-          display={"flex"}
-          gap="36px"
-          mt="24px"
-          fontFamily={"body"}
-          fontWeight="bold"
-        >
-          <span>CREAM</span>
-          <FontAwesomeIcon icon={faDiamond} color="#f6b944" />
-          <span>CANDY</span>
-          <FontAwesomeIcon icon={faDiamond} color="#f6b944" />
-          <span>CAKE</span>
+        <Box width="600px">
+          <Text>
+            Located in <strong>Fairfax, VA</strong>, we're serving up delicious
+            handmade ice cream. It's the old fashion scoop-able kind we all grew
+            up on. No soft serve or frozen yogurt here!
+          </Text>
+          <br />
+          <Text>
+            Local family owned and operated, we are open ALL YEAR LONG*! You
+            don't shut down in the winter, why should we? Ice cream is yummy
+            anytime or season.
+          </Text>
+          <br />
+          <Text>
+            YES! We can handle a bus full of folks. We've done it a few times!
+            Charter bus groups are welcome, just please call and give us a heads
+            up.
+          </Text>
         </Box>
       </Box>
     </MainLayout>

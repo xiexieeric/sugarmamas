@@ -1,0 +1,14 @@
+body {
+  background-color: #1f2c5a;
+}
+
+.mapouter {
+  height: 600px;
+  width: 400px;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 600px;
+  width: 400px;
+}

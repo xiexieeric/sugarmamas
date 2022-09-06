@@ -23,29 +23,21 @@ const IndexPage = () => {
         flexDir="column"
         alignItems={"center"}
         color="#1f2c5a"
-        fontFamily={"logo"}
         flexGrow="1"
       >
-        <Image width="200px" src={logoImg}></Image>
-        <Text fontSize={"100px"}>Sugar Mama's</Text>
-        <Box>
-          <Box backgroundColor={"#88aaa8"} height="4px"></Box>
-          <Text fontSize={"36px"}>Since 1993</Text>
-          <Box backgroundColor={"#88aaa8"} height="4px"></Box>
-        </Box>
-
-        <Box
-          display={"flex"}
-          gap="36px"
-          mt="24px"
-          fontFamily={"body"}
-          fontWeight="bold"
-        >
-          <span>CREAM</span>
-          <FontAwesomeIcon icon={faDiamond} color="#f6b944" />
-          <span>CANDY</span>
-          <FontAwesomeIcon icon={faDiamond} color="#f6b944" />
-          <span>CAKE</span>
+        <Box width="600px">
+          <Text>
+            Looking for a way to earn money for your school, club, organization,
+            or participation in a good cause (walks/runs/etc)?
+          </Text>
+          <br />
+          <Text>
+            Pick a day. Send in all your friends and family. We'll collect the
+            receipts from those that say they are with your group, and at the
+            end of the day you get 20% of those collect receipt sales.
+          </Text>
+          <br />
+          <Text>It's a win-win for everyone.</Text>
         </Box>
       </Box>
     </MainLayout>
